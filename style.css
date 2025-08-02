@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --header-color: rgb(161, 189, 241);
+    --hover-color: rgb(25, 25, 77);
+    --main-color: rgb(181, 181, 238);
+    --bold-color: rgb(25, 25, 77);
+    --font-main: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header.principal-header{
+    background-color: var(--header-color);
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+header.principal-header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header.principal-header > h1.header-title{
+    font-size: 3em;
+}
+
+
+header.principal-header > nav.navigation-bar > a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 1.6em;
+}
+
+header.principal-header > nav.navigation-bar > a:hover{
+    background-color: var(--hover-color);
+    color: white;
+    transition-duration: 500ms;
+    border-radius: 7px;
+}
+
+main{
+    font-family: var(--font-main);
+    opacity: 0;
+    max-width: 935px;
+    padding: 20px;
+    margin: auto;
+}
+
+main.fade{
+    animation: fadeIn 1.5s forwards;
+}
+
+main > h2{
+    text-align: center;
+    font-size: 2em;
+}
+
+main > h2#sobre{
+    margin-bottom: 30px;
+}
+
+main > p{
+    font-size: 1.5em;
+}
+
+main > p > b{
+    color: var(--bold-color);
+}
+
+@keyframes fadeIn {
+    to{
+        opacity: 1;
+    }
+    
+}
+
+@media (max-width: 935px) {
+    header.principal-header{
+        display: block;
+    }
+
+    header.principal-header > h1.header-title{
+        text-align: center;
+        margin-bottom: 7px;
+    }
+
+    header.principal-header > nav.navigation-bar{
+        text-align: center;
+    }
+
+    header.principal-header > nav.navigation-bar > a{
+        padding: 5px;
+    }
+}
