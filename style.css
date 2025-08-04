@@ -7,7 +7,7 @@
     --header-color: rgb(161, 189, 241);
     --hover-color: rgb(25, 25, 77);
     --main-color: rgb(181, 181, 238);
-    --bold-color: rgb(25, 25, 77);
+    --bold-color: rgb(35, 35, 194);
     --font-main: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -69,6 +69,7 @@ main > h2#sobre{
 
 main > p{
     font-size: 1.5em;
+    text-align: justify;
 }
 
 main > p > b{
@@ -82,14 +83,15 @@ main > p > b{
     
 }
 
-@media (max-width: 935px) {
+@media (max-width: 1400px) {
     header.principal-header{
         display: block;
     }
 
     header.principal-header > h1.header-title{
         text-align: center;
-        margin-bottom: 7px;
+        margin-bottom: 25px;
+        font-size: 2em;
     }
 
     header.principal-header > nav.navigation-bar{
@@ -98,5 +100,15 @@ main > p > b{
 
     header.principal-header > nav.navigation-bar > a{
         padding: 5px;
+        font-size: 1.3em;
     }
+
+    main > h2{
+        font-size: 1.5em;
+    }
+
+    main > p{
+        font-size: 1.1em;
+    }
+
 }
