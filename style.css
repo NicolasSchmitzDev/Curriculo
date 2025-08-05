@@ -61,6 +61,7 @@ main.fade{
 main > h2{
     text-align: center;
     font-size: 2em;
+    margin-bottom: 25px;
 }
 
 main > h2#sobre{
@@ -74,6 +75,17 @@ main > p{
 
 main > p > b{
     color: var(--bold-color);
+}
+
+main > section.tech{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+main > section.tech > picture{
+    margin: auto;
 }
 
 @keyframes fadeIn {
@@ -109,6 +121,7 @@ main > p > b{
 
     main > p{
         font-size: 1.1em;
+        margin-bottom: 35px;
     }
 
 }
