@@ -146,8 +146,10 @@ main > section.tech > picture > img:hover{
         margin-bottom: 35px;
     }
 
-    main > section.tech > picture > img{
-    opacity: 1;
 }
 
+@media (max-width: 1200px) {
+    main > section.tech > picture > img{
+        opacity: 1;
+    }
 }
