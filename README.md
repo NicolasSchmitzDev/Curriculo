@@ -48,7 +48,7 @@ Nicolas Schmitz - Desenvolvedor Web Front-end
 
 GitHub: https://github.com/nicolasschmitzdev
 
-Instagram: https://instagram.com/nicolasschmitz0
+Instagram: https://instagram.com/nicolasschmitz10
 
 📄 Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE.md para mais detalhes.
