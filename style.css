@@ -68,6 +68,17 @@ main > h2#sobre{
     margin-bottom: 30px;
 }
 
+main > picture{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+main > picture > img.nicolasImage{
+    max-width: 200px;
+    border-radius: 50%;
+}
+
 main > p{
     font-size: 1.5em;
     text-align: justify;
