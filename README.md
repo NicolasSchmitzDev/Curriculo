@@ -46,9 +46,9 @@ Este projeto foi criado e é mantido por:
 
 Nicolas Schmitz - Desenvolvedor Web Front-end
 
-GitHub: https://github.com/SeuUsuario
+GitHub: https://github.com/nicolasschmitzdev
 
-Instagram: https://instagram.com/SeuInstagram
+Instagram: https://instagram.com/nicolasschmitz0
 
 📄 Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE.md para mais detalhes.
