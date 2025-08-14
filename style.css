@@ -4,11 +4,15 @@
 }
 
 :root{
-    --header-color: rgb(161, 189, 241);
+    --header-color: rgb(66, 131, 250);
     --hover-color: rgb(25, 25, 77);
     --main-color: rgb(181, 181, 238);
-    --bold-color: rgb(35, 35, 194);
+    --bold-color: rgb(101, 101, 255);
     --font-main: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-image: url(images/page_background.png);
 }
 
 header.principal-header{
@@ -19,6 +23,9 @@ header.principal-header{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 
 header.principal-header{
@@ -62,6 +69,8 @@ main > h2{
     text-align: center;
     font-size: 2em;
     margin-bottom: 25px;
+    margin-top: 170px;
+    color: white;
 }
 
 main > h2#sobre{
@@ -82,6 +91,7 @@ main > picture > img.nicolasImage{
 main > p{
     font-size: 1.5em;
     text-align: justify;
+    color: white;
 }
 
 main > p > b{
@@ -139,6 +149,7 @@ main > section.tech > picture > img:hover{
 
     main > h2{
         font-size: 1.5em;
+        margin-top: 170px;
     }
 
     main > p{
@@ -151,5 +162,9 @@ main > section.tech > picture > img:hover{
 @media (max-width: 1200px) {
     main > section.tech > picture > img{
         opacity: 1;
+    }
+
+    main > h2{
+        margin-top: 180px;
     }
 }
