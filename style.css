@@ -40,10 +40,14 @@ header.principal-header > h1.header-title{
 header.principal-header > nav.navigation-bar > a{
     text-decoration: none;
     color: black;
-    margin-right: 10px;
+    margin-right: 20px;
     padding: 10px;
     font-weight: 600;
     font-size: 1.6em;
+}
+
+header.principal-header > nav.navigation-bar > a:last-child{
+    margin-right: 35px;
 }
 
 header.principal-header > nav.navigation-bar > a:hover{
@@ -68,13 +72,13 @@ main.fade{
 main > h2{
     text-align: center;
     font-size: 2em;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
     margin-top: 170px;
     color: white;
 }
 
 main > h2#sobre{
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 main > picture{
