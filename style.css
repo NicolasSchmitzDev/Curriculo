@@ -13,6 +13,8 @@
 
 body{
     background-image: url(images/page_background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 header.principal-header{
@@ -96,6 +98,7 @@ main > p{
     font-size: 1.5em;
     text-align: justify;
     color: white;
+    margin-bottom: 35px;
 }
 
 main > p > b{
@@ -153,7 +156,7 @@ main > section.tech > picture > img:hover{
 
     main > h2{
         font-size: 1.5em;
-        margin-top: 170px;
+        margin-top: 200px;
     }
 
     main > p{
@@ -169,6 +172,6 @@ main > section.tech > picture > img:hover{
     }
 
     main > h2{
-        margin-top: 180px;
+        margin-top: 200px;
     }
 }
