@@ -4,7 +4,7 @@
 }
 
 :root{
-    --header-color: rgb(66, 131, 250);
+    --header-color: rgb(55, 33, 252);
     --hover-color: rgb(25, 25, 77);
     --main-color: rgb(181, 181, 238);
     --bold-color: rgb(101, 101, 255);
@@ -28,20 +28,18 @@ header.principal-header{
     position: fixed;
     width: 100%;
     z-index: 1000;
-}
-
-header.principal-header{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header.principal-header > h1.header-title{
     font-size: 3em;
+    color: white;
 }
 
 
 header.principal-header > nav.navigation-bar > a{
     text-decoration: none;
-    color: black;
+    color: white;
     margin-right: 20px;
     padding: 10px;
     font-weight: 600;
@@ -98,7 +96,7 @@ main > p{
     font-size: 1.5em;
     text-align: justify;
     color: white;
-    margin-bottom: 35px;
+    margin-bottom: 45px;
 }
 
 main > p > b{
@@ -125,6 +123,33 @@ main > section.tech > picture > img{
 main > section.tech > picture > img:hover{
     opacity: 1;
     transition-duration: 500ms;
+}
+
+main > ul{
+    max-width: 400px;
+    margin: auto;
+    font-family: var(--font-main);
+    
+}
+
+main > ul > li{
+    color: white;
+    margin-bottom: 35px;
+    font-size: 1.1em;
+}
+
+footer{
+    display: flex;
+    font-family: var(--font-main);
+    background-color: var(--header-color);
+    padding: 3px;
+    border-radius: 3px;
+}
+
+footer > p{
+    color: white;
+    font-size: small;
+    margin-left: 10px;
 }
 
 @keyframes fadeIn {
@@ -173,5 +198,9 @@ main > section.tech > picture > img:hover{
 
     main > h2{
         margin-top: 200px;
+    }
+
+    footer{
+        justify-content: center;
     }
 }
