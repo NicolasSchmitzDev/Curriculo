@@ -125,17 +125,29 @@ main > section.tech > picture > img:hover{
     transition-duration: 500ms;
 }
 
-main > ul{
+main > div.features{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main > div.features > ul{
+    margin-left: 30px;
+    color: white;
     max-width: 400px;
-    margin: auto;
     font-family: var(--font-main);
     
 }
 
-main > ul > li{
+main > div > ul > li{
     color: white;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
     font-size: 1.1em;
+}
+
+main > div.features > img.img-features{
+    max-width: 350px;
+    object-fit: contain;
 }
 
 footer{
@@ -202,5 +214,18 @@ footer > p{
 
     footer{
         justify-content: center;
+    }
+
+    main > div.features{
+        display: block;
+    }
+
+    main > div.features > ul{
+        margin: auto;
+    }
+
+    main > div.features > img.img-features{
+        display: block;
+        margin: auto;
     }
 }
